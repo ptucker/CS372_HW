@@ -10,6 +10,7 @@ public class StringToInt{
         int temp = 0;
 
         for (int i = 0; i < input.length(); i++) {
+            //PT -- try this: temp = input.charAt(i) - '0';
             temp = input.charAt(i) - 48;
             result += temp * (int)Math.pow(10, (input.length() - 1) - i);
         }
