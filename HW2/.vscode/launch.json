@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CityTest",
+            "request": "launch",
+            "mainClass": "CityTest",
+            "projectName": "HW2_5b3a3a73"
+        }
+    ]
+}
