@@ -41,6 +41,7 @@ public class Person{
     int getNumber() { return number; }  //@return phone number of Person as integer
 
     void setName(String name){ this.name = name; }      //@param name changes the name of the Person
+    //PT -- validate age and number. -2
     void setAge(int age){ this.age = age; }             //@param age changes the age of the Person
     void setNumber(int number){ this.number = number; } //@param number changes the phone number of the Person
 }
