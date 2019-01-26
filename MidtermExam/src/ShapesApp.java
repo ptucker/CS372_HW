@@ -1,3 +1,19 @@
+/*
+FEEDBACK
+
+Read from the file correctly: 20/20%
+Implement class hierarchy correctly: 20/20%
+Populate appropriate data structures with shape data: 15/15%
+Show list of shapes correctly: 15/15%
+Show specific shape properties correctly: 15/15%
+Well-structured, well-commented code: 13/15%
+
+
+Comments:
+  separate the FileReading code into a separate class.
+  fails to select first shape (line 160 should check getSelectedIndex() >= 0)
+*/
+
 import java.awt.Color;
 import java.awt.EventQueue;
 import java.awt.Image;
